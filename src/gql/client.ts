@@ -228,6 +228,20 @@ export const MegaMenuGroupBlockDataFragmentDoc = /*#__PURE__*/ gql`
   }
 }
     `;
+export const KajooCardDataFragmentDoc = /*#__PURE__*/ gql`
+    fragment KajooCardData on KajooCard {
+  Heading: Heading
+  Description: Description {
+    json
+  }
+  Image: Image {
+    ...ReferenceData
+  }
+  Link: Link {
+    ...LinkItemData
+  }
+}
+    `;
 export const BlockDataFragmentDoc = /*#__PURE__*/ gql`
     fragment BlockData on _IContent {
   ...IContentData
@@ -236,6 +250,7 @@ export const BlockDataFragmentDoc = /*#__PURE__*/ gql`
   ...ButtonBlockData
   ...MegaMenuGroupBlockData
   ...NavigationMenuBlockData
+  ...KajooCardData
 }
     `;
 export const ArticleGroupPageDataFragmentDoc = /*#__PURE__*/ gql`
@@ -320,6 +335,7 @@ ${ButtonBlockDataFragmentDoc}
 ${MegaMenuGroupBlockDataFragmentDoc}
 ${NavigationMenuBlockDataFragmentDoc}
 ${LinkItemDataFragmentDoc}
+${KajooCardDataFragmentDoc}
 ${PageDataFragmentDoc}
 ${BlankExperienceDataFragmentDoc}
 ${ExperienceDataFragmentDoc}
@@ -371,6 +387,7 @@ ${ButtonBlockDataFragmentDoc}
 ${MegaMenuGroupBlockDataFragmentDoc}
 ${NavigationMenuBlockDataFragmentDoc}
 ${LinkItemDataFragmentDoc}
+${KajooCardDataFragmentDoc}
 ${ArticlePageDataFragmentDoc}`;
 export const getArticleListElementItemsDocument = /*#__PURE__*/ gql`
     query getArticleListElementItems($count: Int, $locale: [Locales]) {

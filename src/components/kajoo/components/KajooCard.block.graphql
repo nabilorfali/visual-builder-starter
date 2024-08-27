@@ -1,0 +1,12 @@
+fragment KajooCardData on KajooCard {
+  Heading: Heading
+  Description: Description {
+    json
+  }
+  Image: Image {
+    ...ReferenceData
+  }
+  Link: Link {
+    ...LinkItemData
+  }
+}
