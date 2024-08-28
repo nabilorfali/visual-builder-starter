@@ -1,0 +1,12 @@
+fragment CardFullData on CardFull {
+        Heading
+        Description {
+            json
+        }
+        WatchNow {
+            ...LinkItemData
+        }
+        BgImage {
+            ...ReferenceData
+        }
+    }

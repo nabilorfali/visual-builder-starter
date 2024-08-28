@@ -1,4 +1,6 @@
 
+/* eslint-disable */
+// @ts-nocheck
 import { CmsContentArea } from "@remkoj/optimizely-cms-react/rsc";
 
 const KajooPage = (props) => {

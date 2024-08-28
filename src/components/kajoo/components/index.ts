@@ -1,10 +1,22 @@
-import KajooCard from "./KajooCard";
 
-const kajooComponentDictionary = [
-  {
-    type: "Component/KajooCard",
-    component: KajooCard,
-  },
-];
+import AmicaCard from './AmicaCard';
+import ContentBlock from './ContentBlock';
+import CardFull from './CardFull';
 
-export default kajooComponentDictionary;
+const kajooComponentDictionary = 
+[
+    {
+        type: "Component/AmicaCard",
+        component: AmicaCard,
+    },
+{
+        type: "Component/ContentBlock",
+        component: ContentBlock,
+    },
+{
+        type: "Component/CardFull",
+        component: CardFull,
+    }
+]
+
+export default kajooComponentDictionary
