@@ -1,5 +1,6 @@
 fragment AmicaCardData on AmicaCard {
         Heading
+            
         Description {
             json
         }
