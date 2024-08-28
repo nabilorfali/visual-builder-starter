@@ -23,8 +23,8 @@ const AmicaCard = (props) => {
           </Container>
           <Link
             aria-label="Link"
-            href={props.data['See More'].url}
-            text={props.data['See More'].Text}
+            href={props.data.SeeMore.url}
+            text={props.data.SeeMore.text}
             className={` ${styles['a']} ${'button-default'} `}
           />
         </Container>
