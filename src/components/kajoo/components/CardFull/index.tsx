@@ -22,7 +22,7 @@ const CardFull = (props) => {
             <RichText value='&lt;p style="display: block; box-sizing: border-box; margin-top: 0px; margin-bottom: 0.8em; line-height: 1.8; margin-right: 0px; margin-left: 0px"  &gt;Get expert tips and ideas for better sleep, enhanced memory, managing stress, downsizing and more in our new online workshops.&lt;/p&gt;' />
           </Container>
           <Button
-            text={props.data["Watch Now"].text}
+            text={props.data["WatchNow"].text}
             className={styles["submit-button"]}
           />
         </Container>

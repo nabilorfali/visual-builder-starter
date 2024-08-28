@@ -14,6 +14,7 @@ import {
 import styles from "./style.module.css";
 
 const AmicaCard = (props) => {
+  console.log(props);
   return (
     <Container
       tag="section"
@@ -29,8 +30,8 @@ const AmicaCard = (props) => {
           </Container>
           <Link
             aria-label="Link"
-            href={props.data["See More"].url}
-            text={props.data["See More"].text}
+            href={props.data["SeeMore"].url}
+            text={props.data["SeeMore"].text}
             className={styles["a"]}
           />
         </Container>
