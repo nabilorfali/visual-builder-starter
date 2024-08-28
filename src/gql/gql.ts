@@ -49,10 +49,6 @@ const documents = {
     "query getHeader {\n  menuItems: HeaderBlock(where: {_metadata: {status: {eq: \"Published\"}}}) {\n    items {\n      logo: site_logo {\n        ...ReferenceData\n      }\n      darkLogo: site_logo_dark {\n        ...ReferenceData\n      }\n      headerNavigation: site_main_navigation {\n        ...IContentData\n        ...MegaMenuGroupBlockData\n      }\n      utilityNavigation: site_utility_navigation {\n        ...IContentData\n        ...ButtonBlockData\n      }\n    }\n  }\n}": types.getHeaderDocument,
     "fragment MegaMenuGroupBlockData on MegaMenuGroupBlock {\n  menuName: MenuMenuHeading\n  menuLink: MegaMenuUrl {\n    ...LinkData\n  }\n  menuData: MegaMenuContentArea {\n    __typename\n    ...IContentData\n    ...NavigationMenuBlockData\n    ...CardBlockData\n  }\n}": types.MegaMenuGroupBlockDataFragmentDoc,
     "fragment NavigationMenuBlockData on NavigationMenuBlock {\n  title: MenuNavigationHeading\n  items: NavigationLinks {\n    ...LinkItemData\n  }\n}": types.NavigationMenuBlockDataFragmentDoc,
-    "fragment AmicaCardData on AmicaCard {\n  Heading\n  Description {\n    json\n  }\n  Image {\n    ...ReferenceData\n  }\n  SeeMore {\n    ...LinkItemData\n  }\n}": types.AmicaCardDataFragmentDoc,
-    "fragment CardFullData on CardFull {\n  Heading\n  Description {\n    json\n  }\n  WatchNow {\n    ...LinkItemData\n  }\n  BgImage {\n    ...ReferenceData\n  }\n}": types.CardFullDataFragmentDoc,
-    "fragment ContentBlockData on ContentBlock {\n  Title\n  Content {\n    json\n  }\n}": types.ContentBlockDataFragmentDoc,
-    "fragment KajooPageData on KajooPage {\n  MainContent {\n    ...BlockData\n  }\n}": types.KajooPageDataFragmentDoc,
     "query getDictionary($dictionary: String!, $locale: [Locales]) {\n  getDictionary: Dictionary(\n    where: {DictionaryKey: {eq: $dictionary}}\n    locale: $locale\n  ) {\n    total\n    items {\n      key: DictionaryKey\n      contents: DictionaryItems {\n        key: DictionaryItemKey\n        value: DictionaryItemValue\n      }\n    }\n  }\n}": types.getDictionaryDocument,
 };
 
@@ -214,22 +210,6 @@ export function gql(source: "fragment MegaMenuGroupBlockData on MegaMenuGroupBlo
  * The gql function is used to parse GraphQL queries into a document that can be used by GraphQL clients.
  */
 export function gql(source: "fragment NavigationMenuBlockData on NavigationMenuBlock {\n  title: MenuNavigationHeading\n  items: NavigationLinks {\n    ...LinkItemData\n  }\n}"): (typeof documents)["fragment NavigationMenuBlockData on NavigationMenuBlock {\n  title: MenuNavigationHeading\n  items: NavigationLinks {\n    ...LinkItemData\n  }\n}"];
-/**
- * The gql function is used to parse GraphQL queries into a document that can be used by GraphQL clients.
- */
-export function gql(source: "fragment AmicaCardData on AmicaCard {\n  Heading\n  Description {\n    json\n  }\n  Image {\n    ...ReferenceData\n  }\n  SeeMore {\n    ...LinkItemData\n  }\n}"): (typeof documents)["fragment AmicaCardData on AmicaCard {\n  Heading\n  Description {\n    json\n  }\n  Image {\n    ...ReferenceData\n  }\n  SeeMore {\n    ...LinkItemData\n  }\n}"];
-/**
- * The gql function is used to parse GraphQL queries into a document that can be used by GraphQL clients.
- */
-export function gql(source: "fragment CardFullData on CardFull {\n  Heading\n  Description {\n    json\n  }\n  WatchNow {\n    ...LinkItemData\n  }\n  BgImage {\n    ...ReferenceData\n  }\n}"): (typeof documents)["fragment CardFullData on CardFull {\n  Heading\n  Description {\n    json\n  }\n  WatchNow {\n    ...LinkItemData\n  }\n  BgImage {\n    ...ReferenceData\n  }\n}"];
-/**
- * The gql function is used to parse GraphQL queries into a document that can be used by GraphQL clients.
- */
-export function gql(source: "fragment ContentBlockData on ContentBlock {\n  Title\n  Content {\n    json\n  }\n}"): (typeof documents)["fragment ContentBlockData on ContentBlock {\n  Title\n  Content {\n    json\n  }\n}"];
-/**
- * The gql function is used to parse GraphQL queries into a document that can be used by GraphQL clients.
- */
-export function gql(source: "fragment KajooPageData on KajooPage {\n  MainContent {\n    ...BlockData\n  }\n}"): (typeof documents)["fragment KajooPageData on KajooPage {\n  MainContent {\n    ...BlockData\n  }\n}"];
 /**
  * The gql function is used to parse GraphQL queries into a document that can be used by GraphQL clients.
  */
