@@ -228,6 +228,42 @@ export const MegaMenuGroupBlockDataFragmentDoc = /*#__PURE__*/ gql`
   }
 }
     `;
+export const AmicaCardDataFragmentDoc = /*#__PURE__*/ gql`
+    fragment AmicaCardData on AmicaCard {
+  Heading
+  Description {
+    json
+  }
+  Image {
+    ...ReferenceData
+  }
+  SeeMore {
+    ...LinkItemData
+  }
+}
+    `;
+export const CardFullDataFragmentDoc = /*#__PURE__*/ gql`
+    fragment CardFullData on CardFull {
+  Heading
+  Description {
+    json
+  }
+  WatchNow {
+    ...LinkItemData
+  }
+  BgImage {
+    ...ReferenceData
+  }
+}
+    `;
+export const ContentBlockDataFragmentDoc = /*#__PURE__*/ gql`
+    fragment ContentBlockData on ContentBlock {
+  Title
+  Content {
+    json
+  }
+}
+    `;
 export const KajooCardDataFragmentDoc = /*#__PURE__*/ gql`
     fragment KajooCardData on KajooCard {
   Heading: Heading
@@ -250,6 +286,9 @@ export const BlockDataFragmentDoc = /*#__PURE__*/ gql`
   ...ButtonBlockData
   ...MegaMenuGroupBlockData
   ...NavigationMenuBlockData
+  ...AmicaCardData
+  ...CardFullData
+  ...ContentBlockData
   ...KajooCardData
 }
     `;
@@ -279,12 +318,20 @@ export const ArticlePageDataFragmentDoc = /*#__PURE__*/ gql`
   }
 }
     `;
+export const KajooPageDataFragmentDoc = /*#__PURE__*/ gql`
+    fragment KajooPageData on KajooPage {
+  MainContent {
+    ...BlockData
+  }
+}
+    `;
 export const PageDataFragmentDoc = /*#__PURE__*/ gql`
     fragment PageData on _IContent {
   ...IContentData
   ...BlankExperienceData
   ...ArticleGroupPageData
   ...ArticlePageData
+  ...KajooPageData
 }
     `;
 export const MenuContentFragmentDoc = /*#__PURE__*/ gql`
@@ -335,6 +382,9 @@ ${ButtonBlockDataFragmentDoc}
 ${MegaMenuGroupBlockDataFragmentDoc}
 ${NavigationMenuBlockDataFragmentDoc}
 ${LinkItemDataFragmentDoc}
+${AmicaCardDataFragmentDoc}
+${CardFullDataFragmentDoc}
+${ContentBlockDataFragmentDoc}
 ${KajooCardDataFragmentDoc}
 ${PageDataFragmentDoc}
 ${BlankExperienceDataFragmentDoc}
@@ -349,7 +399,8 @@ ${ImageElementDataFragmentDoc}
 ${ParagraphElementDataFragmentDoc}
 ${TestimonialElementDataFragmentDoc}
 ${ArticleGroupPageDataFragmentDoc}
-${ArticlePageDataFragmentDoc}`;
+${ArticlePageDataFragmentDoc}
+${KajooPageDataFragmentDoc}`;
 export const getContentByPathDocument = /*#__PURE__*/ gql`
     query getContentByPath($path: String!, $version: String, $locale: [Locales!], $domain: String) {
   content: _Content(
@@ -387,8 +438,12 @@ ${ButtonBlockDataFragmentDoc}
 ${MegaMenuGroupBlockDataFragmentDoc}
 ${NavigationMenuBlockDataFragmentDoc}
 ${LinkItemDataFragmentDoc}
+${AmicaCardDataFragmentDoc}
+${CardFullDataFragmentDoc}
+${ContentBlockDataFragmentDoc}
 ${KajooCardDataFragmentDoc}
-${ArticlePageDataFragmentDoc}`;
+${ArticlePageDataFragmentDoc}
+${KajooPageDataFragmentDoc}`;
 export const getArticleListElementItemsDocument = /*#__PURE__*/ gql`
     query getArticleListElementItems($count: Int, $locale: [Locales]) {
   ArticlePage(
