@@ -228,56 +228,6 @@ export const MegaMenuGroupBlockDataFragmentDoc = /*#__PURE__*/ gql`
   }
 }
     `;
-export const AmicaCardDataFragmentDoc = /*#__PURE__*/ gql`
-    fragment AmicaCardData on AmicaCard {
-  Heading
-  Description {
-    json
-  }
-  Image {
-    ...ReferenceData
-  }
-  SeeMore {
-    ...LinkItemData
-  }
-}
-    `;
-export const CardFullDataFragmentDoc = /*#__PURE__*/ gql`
-    fragment CardFullData on CardFull {
-  Heading
-  Description {
-    json
-  }
-  WatchNow {
-    ...LinkItemData
-  }
-  BgImage {
-    ...ReferenceData
-  }
-}
-    `;
-export const ContentBlockDataFragmentDoc = /*#__PURE__*/ gql`
-    fragment ContentBlockData on ContentBlock {
-  Title
-  Content {
-    json
-  }
-}
-    `;
-export const KajooCardDataFragmentDoc = /*#__PURE__*/ gql`
-    fragment KajooCardData on KajooCard {
-  Heading: Heading
-  Description: Description {
-    json
-  }
-  Image: Image {
-    ...ReferenceData
-  }
-  Link: Link {
-    ...LinkItemData
-  }
-}
-    `;
 export const BlockDataFragmentDoc = /*#__PURE__*/ gql`
     fragment BlockData on _IContent {
   ...IContentData
@@ -286,10 +236,6 @@ export const BlockDataFragmentDoc = /*#__PURE__*/ gql`
   ...ButtonBlockData
   ...MegaMenuGroupBlockData
   ...NavigationMenuBlockData
-  ...AmicaCardData
-  ...CardFullData
-  ...ContentBlockData
-  ...KajooCardData
 }
     `;
 export const ArticleGroupPageDataFragmentDoc = /*#__PURE__*/ gql`
@@ -382,10 +328,6 @@ ${ButtonBlockDataFragmentDoc}
 ${MegaMenuGroupBlockDataFragmentDoc}
 ${NavigationMenuBlockDataFragmentDoc}
 ${LinkItemDataFragmentDoc}
-${AmicaCardDataFragmentDoc}
-${CardFullDataFragmentDoc}
-${ContentBlockDataFragmentDoc}
-${KajooCardDataFragmentDoc}
 ${PageDataFragmentDoc}
 ${BlankExperienceDataFragmentDoc}
 ${ExperienceDataFragmentDoc}
@@ -438,10 +380,6 @@ ${ButtonBlockDataFragmentDoc}
 ${MegaMenuGroupBlockDataFragmentDoc}
 ${NavigationMenuBlockDataFragmentDoc}
 ${LinkItemDataFragmentDoc}
-${AmicaCardDataFragmentDoc}
-${CardFullDataFragmentDoc}
-${ContentBlockDataFragmentDoc}
-${KajooCardDataFragmentDoc}
 ${ArticlePageDataFragmentDoc}
 ${KajooPageDataFragmentDoc}`;
 export const getArticleListElementItemsDocument = /*#__PURE__*/ gql`
