@@ -1,12 +1,13 @@
 fragment NewFigmaComponentData on NewFigmaComponent {
-        TextText1
-        Link {
-            ...LinkItemData
-        }
-        Image {
-            ...ReferenceData
-        }
-        Link1 {
-            ...LinkItemData
-        }
-    }
+  Text
+  Text1
+  Link {
+    ...LinkItemData
+  }
+  Image {
+    ...ReferenceData
+  }
+  Link1 {
+    ...LinkItemData
+  }
+}
