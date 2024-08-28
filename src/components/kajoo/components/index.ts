@@ -2,6 +2,7 @@
 import AmicaCard from './AmicaCard';
 import ContentBlock from './ContentBlock';
 import CardFull from './CardFull';
+import NewFigmaComponent from './NewFigmaComponent';
 
 const kajooComponentDictionary = 
 [
@@ -16,6 +17,10 @@ const kajooComponentDictionary =
 {
         type: "Component/CardFull",
         component: CardFull,
+    },
+{
+        type: "Component/NewFigmaComponent",
+        component: NewFigmaComponent,
     }
 ]
 
