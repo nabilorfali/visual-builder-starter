@@ -1,0 +1,12 @@
+fragment AmicaCardData on AmicaCard {
+        Heading
+        Description {
+            json
+        }
+        Image {
+            ...ReferenceData
+        }
+        SeeMore {
+            ...LinkItemData
+        }
+    }
