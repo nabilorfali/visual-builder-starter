@@ -1,8 +1,8 @@
 import NextLink from "next/link";
 import Button from "./button";
+import { FC } from "react";
 
-//@ts-ignore
-const Link = ({ href, text = "", ...rest }) => {
+const Link: FC<any> = ({ href, text = "", ...rest }) => {
   const hrefUrl = href
     ? new URL(href.default ?? "/", href.base ?? "https://example.com")
     : undefined;
