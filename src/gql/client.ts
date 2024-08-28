@@ -228,6 +228,42 @@ export const MegaMenuGroupBlockDataFragmentDoc = /*#__PURE__*/ gql`
   }
 }
     `;
+export const AmicaCardDataFragmentDoc = /*#__PURE__*/ gql`
+    fragment AmicaCardData on AmicaCard {
+  Heading
+  Description {
+    json
+  }
+  Image {
+    ...ReferenceData
+  }
+  SeeMore {
+    ...LinkItemData
+  }
+}
+    `;
+export const CardFullDataFragmentDoc = /*#__PURE__*/ gql`
+    fragment CardFullData on CardFull {
+  Heading
+  Description {
+    json
+  }
+  WatchNow {
+    ...LinkItemData
+  }
+  BgImage {
+    ...ReferenceData
+  }
+}
+    `;
+export const ContentBlockDataFragmentDoc = /*#__PURE__*/ gql`
+    fragment ContentBlockData on ContentBlock {
+  Title
+  Content {
+    json
+  }
+}
+    `;
 export const BlockDataFragmentDoc = /*#__PURE__*/ gql`
     fragment BlockData on _IContent {
   ...IContentData
@@ -236,6 +272,9 @@ export const BlockDataFragmentDoc = /*#__PURE__*/ gql`
   ...ButtonBlockData
   ...MegaMenuGroupBlockData
   ...NavigationMenuBlockData
+  ...AmicaCardData
+  ...CardFullData
+  ...ContentBlockData
 }
     `;
 export const ArticleGroupPageDataFragmentDoc = /*#__PURE__*/ gql`
@@ -328,6 +367,9 @@ ${ButtonBlockDataFragmentDoc}
 ${MegaMenuGroupBlockDataFragmentDoc}
 ${NavigationMenuBlockDataFragmentDoc}
 ${LinkItemDataFragmentDoc}
+${AmicaCardDataFragmentDoc}
+${CardFullDataFragmentDoc}
+${ContentBlockDataFragmentDoc}
 ${PageDataFragmentDoc}
 ${BlankExperienceDataFragmentDoc}
 ${ExperienceDataFragmentDoc}
@@ -380,6 +422,9 @@ ${ButtonBlockDataFragmentDoc}
 ${MegaMenuGroupBlockDataFragmentDoc}
 ${NavigationMenuBlockDataFragmentDoc}
 ${LinkItemDataFragmentDoc}
+${AmicaCardDataFragmentDoc}
+${CardFullDataFragmentDoc}
+${ContentBlockDataFragmentDoc}
 ${ArticlePageDataFragmentDoc}
 ${KajooPageDataFragmentDoc}`;
 export const getArticleListElementItemsDocument = /*#__PURE__*/ gql`
