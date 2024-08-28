@@ -1,7 +1,6 @@
 :root {
   --size-large: 144px;
   --size-small: 48px;
-  --color-green: #1a9517ff;
   --radius-full: 9999px;
   --radius-none: 0px;
   --size-medium: 96px;
@@ -23,19 +22,13 @@
   --spacing-three-units: 48px;
   --spacing-one-and-half-units: 24px;
 }
-
-.button-default {
-  height: fit-content;
-  display: flex;
-  padding: 10px 35px;
-  font-size: 0.8em;
-  min-width: 130px;
-  min-height: 24px;
-  align-items: center;
-  border-color: #a0a0a0;
-  border-width: 1px;
-  border-radius: 3px;
-  flex-direction: column;
-  justify-content: center;
-  background-color: #eeeeee;
+html {
+	display: block;
+	view-transition-name: root;
+	box-sizing: border-box;
+	font-family: sans-serif;
+	line-height: 1.15;
+	text-size-adjust: 100%;
 }
+
+
