@@ -28,8 +28,14 @@ export const CmsImage: FunctionComponent<CmsImageProps> = ({
   const link = linkDataToUrl(getLinkData(src));
   const imgSrc = link?.href ?? fallbackSrc;
 
-  if (!imgSrc) return null;
-  return <Image src={imgSrc} alt={alt} {...props} />;
+  return (
+    <Image
+      src={imgSrc || "https://app.kajoo.ai/icons/default-imag.svg"}
+      alt={alt}
+      {...props}
+      {...(!imgSrc ? { style: { backgroundColor: "#d9d9d9" } } : {})}
+    />
+  );
 };
 
 function getLinkData(
