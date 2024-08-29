@@ -13,7 +13,6 @@ const DifferentorPanel = (props) => {
       tag="section"
       role="complementary"
       aria-label="Panel"
-      isselected="true"
       className={` ${styles['differentor-panel']} ${
         styles[props.rootClassName]
       } `}
