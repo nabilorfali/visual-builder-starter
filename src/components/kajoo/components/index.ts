@@ -1,11 +1,11 @@
 
-import DynamicComponent from './DynamicComponent';
+import Compo from './Compo';
 
 const kajooComponentDictionary = 
 [
     {
-        type: "Component/DynamicComponent",
-        component: DynamicComponent,
+        type: "Component/Compo",
+        component: Compo,
     }
 ]
 
