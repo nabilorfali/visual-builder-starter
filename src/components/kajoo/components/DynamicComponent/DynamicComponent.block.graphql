@@ -1,0 +1,4 @@
+fragment DynamicComponentData on DynamicComponent {
+        Text
+            
+    }

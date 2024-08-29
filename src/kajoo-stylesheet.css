@@ -22,13 +22,4 @@
   --spacing-three-units: 48px;
   --spacing-one-and-half-units: 24px;
 }
-html {
-	display: block;
-	view-transition-name: root;
-	box-sizing: border-box;
-	font-family: sans-serif;
-	line-height: 1.15;
-	text-size-adjust: 100%;
-}
-
 
