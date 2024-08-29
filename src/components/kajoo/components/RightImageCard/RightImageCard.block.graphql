@@ -4,7 +4,7 @@ fragment RightImageCardData on RightImageCard {
         Description {
             json
         }
-        Link {
+        SeeMore {
             ...LinkItemData
         }
         Image {

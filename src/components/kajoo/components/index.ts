@@ -2,6 +2,7 @@
 import Nav from './Nav';
 import Footer from './Footer';
 import Header from './Header';
+import NoImageCard from './NoImageCard';
 import RightImageCard from './RightImageCard';
 import ContentBlock from './ContentBlock';
 import LeftImageCard from './LeftImageCard';
@@ -20,6 +21,10 @@ const kajooComponentDictionary =
 {
         type: "Component/Header",
         component: Header,
+    },
+{
+        type: "Component/NoImageCard",
+        component: NoImageCard,
     },
 {
         type: "Component/RightImageCard",

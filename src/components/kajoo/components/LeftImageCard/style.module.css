@@ -76,7 +76,15 @@
   outline-style: auto;
   outline-width: 1px;
 }
-.a {
+.rich-text {
+  max-width: 440px;
+  margin-top: auto;
+  line-height: 1.4;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 60px;
+}
+.submit-button {
   color: rgb(255, 255, 255);
   border: 1px solid #587a8d;
   cursor: pointer;
@@ -117,15 +125,15 @@
   border-bottom-right-radius: 0px;
   transition-timing-function: ease-in-out, ease-in-out, ease-in-out, ease-in-out;
 }
-.a:hover {
+.submit-button:hover {
   color: rgb(82, 111, 132);
   background-color: rgb(255, 255, 255);
 }
-.a:focus {
+.submit-button:focus {
   box-shadow: rgba(88, 122, 141, 0.25) 0px 0px 0px 0.2rem;
   outline-width: 0px;
 }
-.a:focus-visible {
+.submit-button:focus-visible {
   outline-color: -webkit-focus-ring-color;
   outline-style: auto;
   outline-width: 1px;
@@ -229,15 +237,13 @@
     max-width: none;
     margin-top: auto;
     font-family: amiriregular, serif;
+    font-weight: 400;
     line-height: 1.2;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 20px;
   }
-  .h-2,.a {
-    font-weight: 400;
-  }
-  .a {
+  .submit-button {
     color: rgb(255, 255, 255);
     border: 1px solid #587a8d;
     cursor: pointer;
@@ -245,6 +251,7 @@
     font-size: 0.875rem;
     min-width: 250px;
     text-align: center;
+    font-weight: 400;
     line-height: 1.5;
     padding-top: 0.75rem;
     user-select: none;
@@ -276,7 +283,7 @@
     border-bottom-right-radius: 0px;
     transition-timing-function: ease-in-out, ease-in-out, ease-in-out, ease-in-out;
   }
-  .a,.div2 {
+  .submit-button,.div2 {
     box-sizing: border-box;
   }
   .div2 {

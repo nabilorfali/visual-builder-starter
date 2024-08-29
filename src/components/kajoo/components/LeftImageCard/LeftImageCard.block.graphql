@@ -1,10 +1,13 @@
 fragment LeftImageCardData on LeftImageCard {
-        Text
+        Heading
             
-        RichText {
+        Description {
             json
         }
         Discover {
             ...LinkItemData
+        }
+        Image {
+            ...ReferenceData
         }
     }
