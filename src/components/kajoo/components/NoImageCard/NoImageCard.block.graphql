@@ -1,0 +1,10 @@
+fragment NoImageCardData on NoImageCard {
+        Heading
+            
+        Link {
+            ...LinkItemData
+        }
+        Description {
+            json
+        }
+    }
