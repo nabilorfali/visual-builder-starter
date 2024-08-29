@@ -1,7 +1,7 @@
 fragment ContentBlockData on ContentBlock {
-        
+        Title
+            
         Content {
             json
-        }Title
-            
+        }
     }

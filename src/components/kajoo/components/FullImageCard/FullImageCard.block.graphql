@@ -1,10 +1,13 @@
 fragment FullImageCardData on FullImageCard {
         Title
             
-        WatchNow {
+        Link {
             ...LinkItemData
         }
         BgImage {
             ...ReferenceData
+        }
+        Description {
+            json
         }
     }

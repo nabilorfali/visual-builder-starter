@@ -4,7 +4,7 @@ import React from 'react'
 
 import PropTypes from 'prop-types'
 
-import { Container, Text, Link } from '../../component-library'
+import { Container, Text, RichText, Link } from '../../component-library'
 import styles from './style.module.css'
 
 const FullImageCard = (props) => {
@@ -22,16 +22,12 @@ const FullImageCard = (props) => {
         <Container className={styles['div1']}>
           <Text tag="h2" text={props.data.Title} className={styles['h-2']} />
           <Container className={styles['div2']}>
-            <Text
-              tag="p"
-              text="Get expert tips and ideas for better sleep, enhanced memory, managing stress, downsizing and more in our new online workshops."
-              className={styles['p']}
-            />
+            <RichText value={props.data.Description} />
           </Container>
           <Link
             aria-label="Watch now"
-            href={props.data.WatchNow.url}
-            text={props.data.WatchNow.text}
+            href={props.data.Link.url}
+            text={props.data.Link.text}
             className={styles['a']}
           />
         </Container>
@@ -45,8 +41,8 @@ FullImageCard.defaultProps = {
   rendering: {},
   rootClassName: '',
   data: {
-    title: 'Webinars for seniors',
-    'Watch Now': {
+    Title: 'Webinars for seniors',
+    Link: {
       href: '#',
       text: 'WATCH NOW',
     },
@@ -54,6 +50,8 @@ FullImageCard.defaultProps = {
       src: 'https://app.kajoo.ai/icons/default-imag.svg',
       alt: '',
     },
+    Description:
+      'Get expert tips and ideas for better sleep, enhanced memory, managing stress, downsizing and more in our new online workshops.',
   },
 }
 
