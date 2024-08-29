@@ -1,4 +1,7 @@
 fragment CompoData on Compo {
         Title
             
+        Image {
+            ...ReferenceData
+        }
     }

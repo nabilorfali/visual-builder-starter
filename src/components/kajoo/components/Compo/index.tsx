@@ -4,7 +4,7 @@ import React from 'react'
 
 import PropTypes from 'prop-types'
 
-import { Container, Text } from '../../component-library'
+import { Container, Text, Image } from '../../component-library'
 import styles from './style.module.css'
 
 const Compo = (props) => {
@@ -13,6 +13,11 @@ const Compo = (props) => {
       className={` ${styles['compo']} ${styles[props.rootClassName]} `}
     >
       <Text text={props.data.Title} tag="h1" />
+      <Image
+        src={props.data.Image}
+        alt="default-kajoo-image"
+        className={'image-default'}
+      />
     </Container>
   )
 }
@@ -22,6 +27,10 @@ Compo.defaultProps = {
   rootClassName: '',
   data: {
     Title: 'Lorem Ipsum',
+    Image: {
+      src: 'https://app.kajoo.ai/icons/default-imag.svg',
+      alt: '',
+    },
   },
 }
 
