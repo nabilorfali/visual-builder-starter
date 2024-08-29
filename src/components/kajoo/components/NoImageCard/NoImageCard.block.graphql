@@ -1,8 +1,0 @@
-fragment NoImageCardData on NoImageCard {
-        Heading
-            Description
-            
-        Link {
-            ...LinkItemData
-        }
-    }
