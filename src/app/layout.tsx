@@ -31,9 +31,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
           className={`${figtree.className} bg-ghost-white text-vulcan dark:bg-vulcan dark:text-ghost-white`}
         >
           <div className="flex min-h-screen flex-col justify-between">
-            <MoseyBankHeader />
             {children}
-            <MoseyBankFooter />
           </div>
         </Body>
       </ThemeProvider>
