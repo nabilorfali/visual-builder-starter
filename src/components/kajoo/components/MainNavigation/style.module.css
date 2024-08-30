@@ -257,7 +257,7 @@
   outline-offset: 0px;
 }
 
-@media(max-width: 576px) {
+@media(max-width: 768px) {
   .main-navigation {
     color: rgb(255, 255, 255);
     z-index: 1020;

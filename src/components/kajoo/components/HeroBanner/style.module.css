@@ -135,7 +135,15 @@
   outline-width: 1px;
 }
 
-@media(max-width: 576px) {
+@media(max-width: 992px) {
+  .div {
+    max-width: 960px;
+  }
+  .h-1 {
+    font-size: 77px;
+  }
+}
+@media(max-width: 768px) {
   .hero-banner {
     color: rgb(255, 255, 255);
     height: 720px;
