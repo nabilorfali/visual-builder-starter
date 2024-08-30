@@ -224,42 +224,7 @@
   outline-width: 1px;
 }
 
-@media(max-width: 992px) {
-  .differentor-panel {
-    border: unset;
-    min-height: unset;
-    background-image: unset;
-    border-top-color: unset;
-    border-top-style: unset;
-    border-top-width: unset;
-    border-left-color: unset;
-    border-left-style: unset;
-    border-left-width: unset;
-    border-right-color: unset;
-    border-right-style: unset;
-    border-right-width: unset;
-    border-bottom-color: unset;
-    border-bottom-style: unset;
-    border-bottom-width: unset;
-  }
-  .differentor-panel,.div {
-    display: flex;
-    padding-bottom: 40px;
-  }
-  .div {
-    padding-top: 40px;
-  }
-  .h-2,.div2,.div4 {
-    max-width: 440px;
-  }
-  .div6 {
-    display: flex;
-  }
-  .img {
-    width: 90%;
-  }
-}
-@media(max-width: 768px) {
+@media(max-width: 576px) {
   .differentor-panel {
     border: solid 10px #f2f1ed;
     min-height: 0px;

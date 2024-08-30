@@ -9,29 +9,53 @@ import ReverseDifferentorPanel from './ReverseDifferentorPanel';
 const kajooComponentDictionary = 
 [
     {
-        type: "Component/HeroBanner",
-        component: HeroBanner,
-    },
+                        type: "Component/Element/HeroBannerElement",
+                        component: HeroBanner,
+                    },
 {
-        type: "Component/MainNavigation",
-        component: MainNavigation,
-    },
+                        type: "Component/HeroBannerBlock",
+                        component: HeroBanner,
+                    },
 {
-        type: "Component/DifferentorPanel",
-        component: DifferentorPanel,
-    },
+                        type: "Component/Element/MainNavigationElement",
+                        component: MainNavigation,
+                    },
 {
-        type: "Component/BackgroundDifferentiatorPanel",
-        component: BackgroundDifferentiatorPanel,
-    },
+                        type: "Component/MainNavigationBlock",
+                        component: MainNavigation,
+                    },
 {
-        type: "Component/IntroOneColumn",
-        component: IntroOneColumn,
-    },
+                        type: "Component/Element/DifferentorPanelElement",
+                        component: DifferentorPanel,
+                    },
 {
-        type: "Component/ReverseDifferentorPanel",
-        component: ReverseDifferentorPanel,
-    }
+                        type: "Component/DifferentorPanelBlock",
+                        component: DifferentorPanel,
+                    },
+{
+                        type: "Component/Element/BackgroundDifferentiatorPanelElement",
+                        component: BackgroundDifferentiatorPanel,
+                    },
+{
+                        type: "Component/BackgroundDifferentiatorPanelBlock",
+                        component: BackgroundDifferentiatorPanel,
+                    },
+{
+                        type: "Component/Element/IntroOneColumnElement",
+                        component: IntroOneColumn,
+                    },
+{
+                        type: "Component/IntroOneColumnBlock",
+                        component: IntroOneColumn,
+                    },
+{
+                        type: "Component/Element/ReverseDifferentorPanelElement",
+                        component: ReverseDifferentorPanel,
+                    },
+{
+                        type: "Component/ReverseDifferentorPanelBlock",
+                        component: ReverseDifferentorPanel,
+                    }
 ]
 
 export default kajooComponentDictionary

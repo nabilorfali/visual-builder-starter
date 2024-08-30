@@ -21,7 +21,7 @@ const HeroBanner = (props) => {
           className={styles['source']}
         />
         <Image
-          src={props.data.Image}
+          src="https://stage-xm-102cm.kajoo.ai/-/media/Amica/Differentiator_panel_with_background_desktop-ASL-NEW-HomepageHeroBanner-OptionB-Desktop-230413.ashx"
           aria-hidden="true"
           alt="Hero Banner"
           className={styles['img']}
@@ -55,7 +55,7 @@ HeroBanner.defaultProps = {
     'Hat Title': 'Hat Title',
     Headline: 'Headline',
     Image: {
-      src: 'https://stage-xm-102cm.kajoo.ai/-/media/Amica/Differentiator_panel_with_background_desktop-ASL-NEW-HomepageHeroBanner-OptionB-Desktop-230413.ashx',
+      src: '',
       alt: '',
     },
     Subtitle: 'Subtitle',
