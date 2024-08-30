@@ -1,0 +1,18 @@
+fragment HeroBannerData on HeroBanner {
+        FullImageLink
+            ImageLink
+            ScrollDownText
+            
+        ImageMobile {
+            ...ReferenceData
+        }
+        ImageTablet {
+            ...ReferenceData
+        }HatTitle
+            Headline
+            
+        Image {
+            ...ReferenceData
+        }Subtitle
+            
+    }
