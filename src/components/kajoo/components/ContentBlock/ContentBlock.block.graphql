@@ -1,7 +1,0 @@
-fragment ContentBlockData on ContentBlock {
-        
-        Content {
-            json
-        }Title
-            
-    }
