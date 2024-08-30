@@ -206,7 +206,39 @@
   outline-width: 1px;
 }
 
-@media(max-width: 576px) {
+@media(max-width: 992px) {
+  .background-differentiator-panel {
+    border: unset;
+    min-height: unset;
+    background-image: url("https://stage-xm-102cm.kajoo.ai/-/media/Amica/Differentiator_panel_with_background_desktop-Amica-App-Pannel-Right.ashx");
+    border-top-color: unset;
+    border-top-style: unset;
+    border-top-width: unset;
+    border-left-color: unset;
+    border-left-style: unset;
+    border-left-width: unset;
+    border-right-color: unset;
+    border-right-style: unset;
+    border-right-width: unset;
+    border-bottom-color: unset;
+    border-bottom-style: unset;
+    border-bottom-width: unset;
+  }
+  .background-differentiator-panel,.div {
+    display: flex;
+    padding-bottom: 40px;
+  }
+  .div {
+    padding-top: 40px;
+  }
+  .h-2,.div2,.div4 {
+    max-width: 440px;
+  }
+  .div6 {
+    display: flex;
+  }
+}
+@media(max-width: 768px) {
   .background-differentiator-panel {
     border: solid 10px #f2f1ed;
     min-height: 0px;
