@@ -7,27 +7,27 @@ import ReverseDifferentorPanel from "./ReverseDifferentorPanel";
 
 const kajooComponentDictionary = [
   {
-    type: "Component/Element/HeroBanner",
+    type: "Component/Element/HeroBannerElement",
     component: HeroBanner,
   },
   {
-    type: "Component/Element/MainNavigation",
+    type: "Component/Element/MainNavigationElement",
     component: MainNavigation,
   },
   {
-    type: "Component/Element/DifferentorPanel",
+    type: "Component/Element/DifferentorPanelElement",
     component: DifferentorPanel,
   },
   {
-    type: "Component/Element/BackgroundDifferentiatorPanel",
+    type: "Component/Element/BackgroundDifferentiatorPanelElement",
     component: BackgroundDifferentiatorPanel,
   },
   {
-    type: "Component/Element/IntroOneColumn",
+    type: "Component/Element/IntroOneColumnElement",
     component: IntroOneColumn,
   },
   {
-    type: "Component/Element/ReverseDifferentorPanel",
+    type: "Component/Element/ReverseDifferentorPanelElement",
     component: ReverseDifferentorPanel,
   },
 ];
