@@ -1,3 +1,5 @@
+@import url('test');
+@import url('https://fonts.googleapis.com/css?family=SF+Pro+Text|ADLaM+Display');
 :root {
   --size-wq: 550px;
   --radius-qwsx: 11px;
