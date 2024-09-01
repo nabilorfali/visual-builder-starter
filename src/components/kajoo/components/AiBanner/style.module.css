@@ -1,20 +1,28 @@
 .ai-banner {
   width: 100%;
+}
+.ai-banner,.container1 {
   display: flex;
   align-items: center;
   flex-direction: column;
 }
+.container1 {
+  width: 1028px;
+  height: 719px;
+  padding: 32px;
+  justify-content: center;
+  background-color: #005785;
+}
 .text {
-  color: #587a8dff;
   font-size: 48px;
   font-weight: bold;
   margin-bottom: 16px;
 }
 .text,.text1 {
+  color: #ffffff;
   text-align: center;
 }
 .text1 {
-  color: #767679ff;
   font-size: 24px;
   margin-bottom: 32px;
 }
@@ -22,12 +30,12 @@
   color: #ffffff;
   border: none;
   cursor: pointer;
-  margin: 0 auto;
-  display: block;
   padding: 16px 32px;
-  font-size: 18px;
-  text-align: center;
   border-radius: 8px;
-  background-color: #587a8dff;
+  background-color: #767679ff;
 }
-
+@media(max-width: 1068px) {
+  .container1 {
+    background-color: #FF7F50;
+  }
+}
