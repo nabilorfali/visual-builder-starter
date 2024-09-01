@@ -1,0 +1,8 @@
+fragment AiBannerElementData on AiBannerElement {
+        Heading
+            Subheading
+            
+        Link {
+            ...LinkItemData
+        }
+    }
