@@ -1,0 +1,11 @@
+fragment BannerV3ElementData on BannerV3Element {
+        Heading
+            Subheading
+            
+        Link {
+            ...LinkItemData
+        }
+        Image {
+            ...ReferenceData
+        }
+    }

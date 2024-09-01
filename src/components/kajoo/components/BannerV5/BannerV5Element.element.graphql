@@ -1,0 +1,11 @@
+fragment BannerV5ElementData on BannerV5Element {
+        Heading
+            Subheading
+            
+        Link {
+            ...LinkItemData
+        }
+        Image {
+            ...ReferenceData
+        }
+    }

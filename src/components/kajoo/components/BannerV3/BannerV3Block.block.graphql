@@ -1,0 +1,11 @@
+fragment BannerV3BlockData on BannerV3Block {
+        Heading
+            Subheading
+            
+        Link {
+            ...LinkItemData
+        }
+        Image {
+            ...ReferenceData
+        }
+    }

@@ -1,0 +1,11 @@
+fragment BannerV2BlockData on BannerV2Block {
+        Heading
+            Subheading
+            
+        Link {
+            ...LinkItemData
+        }
+        Image {
+            ...ReferenceData
+        }
+    }
