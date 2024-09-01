@@ -5,7 +5,6 @@ import DifferentorPanel from './DifferentorPanel';
 import BackgroundDifferentiatorPanel from './BackgroundDifferentiatorPanel';
 import IntroOneColumn from './IntroOneColumn';
 import ReverseDifferentorPanel from './ReverseDifferentorPanel';
-import AiBanner from './AiBanner';
 
 const kajooComponentDictionary = 
 [
@@ -56,14 +55,6 @@ const kajooComponentDictionary =
 {
                         type: "Component/ReverseDifferentorPanelBlock",
                         component: ReverseDifferentorPanel,
-                    },
-{
-                        type: "Component/Element/AiBannerElement",
-                        component: AiBanner,
-                    },
-{
-                        type: "Component/AiBannerBlock",
-                        component: AiBanner,
                     }
 ]
 
