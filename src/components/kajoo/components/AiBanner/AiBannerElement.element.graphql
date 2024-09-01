@@ -1,8 +1,0 @@
-fragment AiBannerElementData on AiBannerElement {
-        Text
-            Desc
-            
-        Cta {
-            ...LinkItemData
-        }
-    }

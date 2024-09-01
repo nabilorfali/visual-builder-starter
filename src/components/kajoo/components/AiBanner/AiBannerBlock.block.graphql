@@ -1,8 +1,0 @@
-fragment AiBannerBlockData on AiBannerBlock {
-        Heading
-            Subheading
-            
-        Link {
-            ...LinkItemData
-        }
-    }

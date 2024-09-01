@@ -2,14 +2,20 @@ import NextLink from "next/link";
 import Button from "./button";
 import { FC } from "react";
 
-const Link: FC<any> = ({ href, text = "", children, ...rest }) => {
+const Link: FC<any> = ({
+  href: link,
+  text: linkText = "",
+  children,
+  ...rest
+}) => {
   let hrefUrl;
+  const text = typeof linkText === "string" ? linkText : linkText?.text || "";
 
-  if (typeof href === "string") {
-    hrefUrl = href;
+  if (typeof link === "string") {
+    hrefUrl = link;
   } else {
-    hrefUrl = href
-      ? new URL(href.default ?? "/", href.base ?? "https://example.com")
+    hrefUrl = link?.url
+      ? new URL(link.url.default ?? "/", link.url.base ?? "https://example.com")
       : undefined;
   }
 
