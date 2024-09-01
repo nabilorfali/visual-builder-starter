@@ -1,0 +1,8 @@
+fragment AiBannerNewBlockData on AiBannerNewBlock {
+        Text
+            Desc
+            
+        Cta {
+            ...LinkItemData
+        }
+    }
