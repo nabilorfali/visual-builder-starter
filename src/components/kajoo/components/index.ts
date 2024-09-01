@@ -14,7 +14,15 @@ const kajooComponentDictionary =
                         component: HeroBanner,
                     },
 {
+                        type: "Component/HeroBannerBlock",
+                        component: HeroBanner,
+                    },
+{
                         type: "Component/Element/MainNavigationElement",
+                        component: MainNavigation,
+                    },
+{
+                        type: "Component/MainNavigationBlock",
                         component: MainNavigation,
                     },
 {
@@ -22,7 +30,15 @@ const kajooComponentDictionary =
                         component: DifferentorPanel,
                     },
 {
+                        type: "Component/DifferentorPanelBlock",
+                        component: DifferentorPanel,
+                    },
+{
                         type: "Component/Element/BackgroundDifferentiatorPanelElement",
+                        component: BackgroundDifferentiatorPanel,
+                    },
+{
+                        type: "Component/BackgroundDifferentiatorPanelBlock",
                         component: BackgroundDifferentiatorPanel,
                     },
 {
@@ -30,11 +46,23 @@ const kajooComponentDictionary =
                         component: IntroOneColumn,
                     },
 {
+                        type: "Component/IntroOneColumnBlock",
+                        component: IntroOneColumn,
+                    },
+{
                         type: "Component/Element/ReverseDifferentorPanelElement",
                         component: ReverseDifferentorPanel,
                     },
 {
+                        type: "Component/ReverseDifferentorPanelBlock",
+                        component: ReverseDifferentorPanel,
+                    },
+{
                         type: "Component/Element/AiBannerElement",
+                        component: AiBanner,
+                    },
+{
+                        type: "Component/AiBannerBlock",
                         component: AiBanner,
                     }
 ]

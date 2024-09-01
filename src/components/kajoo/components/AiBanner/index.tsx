@@ -20,10 +20,10 @@ const AiBanner = (props) => {
           className={styles['text1']}
         />
         <Link
-          href={props.data.Link.url}
+          href="#"
           target="_blank"
           rel="noreferrer noopener"
-          text={props.data.Link.text}
+          text="Get Started"
           className={` ${styles['link']} ${'link-solid-cta'} `}
         />
       </Container>
