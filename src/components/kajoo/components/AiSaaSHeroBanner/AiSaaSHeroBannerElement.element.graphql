@@ -1,0 +1,8 @@
+fragment AiSaaSHeroBannerElementData on AiSaaSHeroBannerElement {
+        Text
+            Text1
+            
+        Link {
+            ...LinkItemData
+        }
+    }

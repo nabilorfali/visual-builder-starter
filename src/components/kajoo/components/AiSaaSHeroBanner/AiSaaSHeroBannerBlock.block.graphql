@@ -1,0 +1,8 @@
+fragment AiSaaSHeroBannerBlockData on AiSaaSHeroBannerBlock {
+        Text
+            Text1
+            
+        Link {
+            ...LinkItemData
+        }
+    }

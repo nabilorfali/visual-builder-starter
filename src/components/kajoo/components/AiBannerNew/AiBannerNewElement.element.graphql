@@ -1,0 +1,8 @@
+fragment AiBannerNewElementData on AiBannerNewElement {
+        Text
+            Desc
+            
+        Cta {
+            ...LinkItemData
+        }
+    }

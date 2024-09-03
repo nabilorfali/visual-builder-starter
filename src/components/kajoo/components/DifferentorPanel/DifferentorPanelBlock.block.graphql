@@ -1,0 +1,19 @@
+fragment DifferentorPanelBlockData on DifferentorPanelBlock {
+        FullImageLink
+            
+        Image {
+            ...ReferenceData
+        }AnchorId
+            
+        BackgroundImage {
+            ...ReferenceData
+        }
+        Description {
+            json
+        }ImageLink
+            
+        MobileBackgroundImage {
+            ...ReferenceData
+        }Title
+            
+    }
