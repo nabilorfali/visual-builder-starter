@@ -1,51 +1,69 @@
 
-import TestHeroBanner from './TestHeroBanner';
-import TestMainNavigation from './TestMainNavigation';
-import TestDifferentorPanel from './TestDifferentorPanel';
-import TestBackgroundDifferentiatorPanel from './TestBackgroundDifferentiatorPanel';
-import TestReverseDifferentorPanel from './TestReverseDifferentorPanel';
+import HeroBanner from './HeroBanner';
+import MainNavigation from './MainNavigation';
+import DifferentorPanel from './DifferentorPanel';
+import BackgroundDifferentiatorPanel from './BackgroundDifferentiatorPanel';
+import ReverseDifferentorPanel from './ReverseDifferentorPanel';
+import NewBanner from './NewBanner';
+import AiSaaSHeroBanner from './AiSaaSHeroBanner';
 
 const kajooComponentDictionary = 
 [
     {
-                        type: "Component/Element/TestHeroBannerElement",
-                        component: TestHeroBanner,
+                        type: "Component/Element/HeroBannerElement",
+                        component: HeroBanner,
                     },
 {
-                        type: "Component/TestHeroBannerBlock",
-                        component: TestHeroBanner,
+                        type: "Component/HeroBannerBlock",
+                        component: HeroBanner,
                     },
 {
-                        type: "Component/Element/TestMainNavigationElement",
-                        component: TestMainNavigation,
+                        type: "Component/Element/MainNavigationElement",
+                        component: MainNavigation,
                     },
 {
-                        type: "Component/TestMainNavigationBlock",
-                        component: TestMainNavigation,
+                        type: "Component/MainNavigationBlock",
+                        component: MainNavigation,
                     },
 {
-                        type: "Component/Element/TestDifferentorPanelElement",
-                        component: TestDifferentorPanel,
+                        type: "Component/Element/DifferentorPanelElement",
+                        component: DifferentorPanel,
                     },
 {
-                        type: "Component/TestDifferentorPanelBlock",
-                        component: TestDifferentorPanel,
+                        type: "Component/DifferentorPanelBlock",
+                        component: DifferentorPanel,
                     },
 {
-                        type: "Component/Element/TestBackgroundDifferentiatorPanelElement",
-                        component: TestBackgroundDifferentiatorPanel,
+                        type: "Component/Element/BackgroundDifferentiatorPanelElement",
+                        component: BackgroundDifferentiatorPanel,
                     },
 {
-                        type: "Component/TestBackgroundDifferentiatorPanelBlock",
-                        component: TestBackgroundDifferentiatorPanel,
+                        type: "Component/BackgroundDifferentiatorPanelBlock",
+                        component: BackgroundDifferentiatorPanel,
                     },
 {
-                        type: "Component/Element/TestReverseDifferentorPanelElement",
-                        component: TestReverseDifferentorPanel,
+                        type: "Component/Element/ReverseDifferentorPanelElement",
+                        component: ReverseDifferentorPanel,
                     },
 {
-                        type: "Component/TestReverseDifferentorPanelBlock",
-                        component: TestReverseDifferentorPanel,
+                        type: "Component/ReverseDifferentorPanelBlock",
+                        component: ReverseDifferentorPanel,
+                    },
+{
+                        type: "Component/Element/NewBannerElement",
+                        component: NewBanner,
+                    },
+{
+                        type: "Component/NewBannerBlock",
+                        component: NewBanner,
+                    },
+{
+                        type: "Component/Element/AiSaaSHeroBannerElement",
+                        component: AiSaaSHeroBanner,
+                    },
+{
+                        type: "Component/AiSaaSHeroBannerBlock",
+                        component: AiSaaSHeroBanner,
                     }
 ]
 
