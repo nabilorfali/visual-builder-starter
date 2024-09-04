@@ -3,10 +3,7 @@ import HeroBanner from './HeroBanner';
 import MainNavigation from './MainNavigation';
 import DifferentorPanel from './DifferentorPanel';
 import BackgroundDifferentiatorPanel from './BackgroundDifferentiatorPanel';
-import IntroOneColumn from './IntroOneColumn';
 import ReverseDifferentorPanel from './ReverseDifferentorPanel';
-import AiBannerNew from './AiBannerNew';
-import AiSaaSHeroBanner from './AiSaaSHeroBanner';
 
 const kajooComponentDictionary = 
 [
@@ -43,36 +40,12 @@ const kajooComponentDictionary =
                         component: BackgroundDifferentiatorPanel,
                     },
 {
-                        type: "Component/Element/IntroOneColumnElement",
-                        component: IntroOneColumn,
-                    },
-{
-                        type: "Component/IntroOneColumnBlock",
-                        component: IntroOneColumn,
-                    },
-{
                         type: "Component/Element/ReverseDifferentorPanelElement",
                         component: ReverseDifferentorPanel,
                     },
 {
                         type: "Component/ReverseDifferentorPanelBlock",
                         component: ReverseDifferentorPanel,
-                    },
-{
-                        type: "Component/Element/AiBannerNewElement",
-                        component: AiBannerNew,
-                    },
-{
-                        type: "Component/AiBannerNewBlock",
-                        component: AiBannerNew,
-                    },
-{
-                        type: "Component/Element/AiSaaSHeroBannerElement",
-                        component: AiSaaSHeroBanner,
-                    },
-{
-                        type: "Component/AiSaaSHeroBannerBlock",
-                        component: AiSaaSHeroBanner,
                     }
 ]
 

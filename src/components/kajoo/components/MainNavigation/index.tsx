@@ -19,7 +19,7 @@ const MainNavigation = (props) => {
       <Container className={styles['div']}>
         <Link href="/en/" className={styles['a']}>
           <Image
-            src={props.data.Image}
+            src="https://stage-xm-102cm.kajoo.ai/-/media/Amica/Logos/webimage-9B1B98BC-10CA-4E19-B459EED98FAAE3FA.ashx?h=402&amp;iar=0&amp;w=800&amp;hash=5B3678B2EF15F2345ED7327019ACB4BB"
             width="800"
             height="402"
             role="img"
@@ -74,7 +74,7 @@ MainNavigation.defaultProps = {
     'Hat Title': 'Hat Title',
     Headline: 'Headline',
     Image: {
-      src: 'https://stage-xm-102cm.kajoo.ai/-/media/Amica/Logos/webimage-9B1B98BC-10CA-4E19-B459EED98FAAE3FA.ashx?h=402&iar=0&w=800&hash=5B3678B2EF15F2345ED7327019ACB4BB',
+      src: '',
       alt: '',
     },
     Subtitle: 'Subtitle',
