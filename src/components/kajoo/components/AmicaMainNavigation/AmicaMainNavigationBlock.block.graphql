@@ -1,0 +1,18 @@
+fragment AmicaMainNavigationBlockData on AmicaMainNavigationBlock {
+        FullImageLink
+            ImageLink
+            ScrollDownText
+            
+        ImageMobile {
+            ...ReferenceData
+        }
+        ImageTablet {
+            ...ReferenceData
+        }HatTitle
+            Headline
+            
+        Image {
+            ...ReferenceData
+        }Subtitle
+            
+    }
