@@ -1,0 +1,19 @@
+fragment TestDifferentorPanelBlockData on TestDifferentorPanelBlock {
+        FullImageLink
+            
+        Image {
+            ...ReferenceData
+        }AnchorId
+            
+        BackgroundImage {
+            ...ReferenceData
+        }
+        Description {
+            json
+        }ImageLink
+            
+        MobileBackgroundImage {
+            ...ReferenceData
+        }Title
+            
+    }

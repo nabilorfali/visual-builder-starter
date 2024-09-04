@@ -1,0 +1,18 @@
+fragment TestHeroBannerBlockData on TestHeroBannerBlock {
+        FullImageLink
+            ImageLink
+            ScrollDownText
+            
+        ImageMobile {
+            ...ReferenceData
+        }
+        ImageTablet {
+            ...ReferenceData
+        }HatTitle
+            Headline
+            
+        Image {
+            ...ReferenceData
+        }Subtitle
+            
+    }
