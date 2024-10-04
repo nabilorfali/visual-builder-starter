@@ -234,7 +234,7 @@
   outline-width: 1px;
 }
 
-@media(max-width: 992px) {
+@media(max-width: 991px) {
   .reverse-differentor-panel {
     border: unset;
     min-height: unset;

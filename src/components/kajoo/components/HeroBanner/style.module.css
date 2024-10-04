@@ -135,10 +135,12 @@
   outline-width: 1px;
 }
 
-@media(max-width: 992px) {
+@media(max-width: 1068px) {
   .div {
     max-width: 960px;
   }
+}
+@media(max-width: 991px) {
   .h-1 {
     font-size: 77px;
   }

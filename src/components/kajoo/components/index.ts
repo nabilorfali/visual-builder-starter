@@ -1,7 +1,7 @@
 
 import HeroBanner from './HeroBanner';
 import MainNavigation from './MainNavigation';
-import DifferentorPanelHackathon from './DifferentorPanelHackathon';
+import DifferentorPanel from './DifferentorPanel';
 import BackgroundDifferentiatorPanel from './BackgroundDifferentiatorPanel';
 import ReverseDifferentorPanel from './ReverseDifferentorPanel';
 
@@ -24,12 +24,12 @@ const kajooComponentDictionary =
                         component: MainNavigation,
                     },
 {
-                        type: "Component/Element/DifferentorPanelHackathonElement",
-                        component: DifferentorPanelHackathon,
+                        type: "Component/Element/DifferentorPanelElement",
+                        component: DifferentorPanel,
                     },
 {
-                        type: "Component/DifferentorPanelHackathonBlock",
-                        component: DifferentorPanelHackathon,
+                        type: "Component/DifferentorPanelBlock",
+                        component: DifferentorPanel,
                     },
 {
                         type: "Component/Element/BackgroundDifferentiatorPanelElement",
