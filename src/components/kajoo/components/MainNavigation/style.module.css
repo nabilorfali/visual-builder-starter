@@ -257,7 +257,7 @@
   outline-offset: 0px;
 }
 
-@media(max-width: 768px) {
+@media(max-width: 767px) {
   .main-navigation {
     padding-top: 40px;
     padding-bottom: 40px;

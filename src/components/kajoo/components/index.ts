@@ -1,11 +1,9 @@
 
 import HeroBanner from './HeroBanner';
 import MainNavigation from './MainNavigation';
-import DifferentorPanel from './DifferentorPanel';
+import DifferentorPanelHackathon from './DifferentorPanelHackathon';
 import BackgroundDifferentiatorPanel from './BackgroundDifferentiatorPanel';
 import ReverseDifferentorPanel from './ReverseDifferentorPanel';
-import NewBanner from './NewBanner';
-import AiSaaSHeroBanner from './AiSaaSHeroBanner';
 
 const kajooComponentDictionary = 
 [
@@ -26,12 +24,12 @@ const kajooComponentDictionary =
                         component: MainNavigation,
                     },
 {
-                        type: "Component/Element/DifferentorPanelElement",
-                        component: DifferentorPanel,
+                        type: "Component/Element/DifferentorPanelHackathonElement",
+                        component: DifferentorPanelHackathon,
                     },
 {
-                        type: "Component/DifferentorPanelBlock",
-                        component: DifferentorPanel,
+                        type: "Component/DifferentorPanelHackathonBlock",
+                        component: DifferentorPanelHackathon,
                     },
 {
                         type: "Component/Element/BackgroundDifferentiatorPanelElement",
@@ -48,22 +46,6 @@ const kajooComponentDictionary =
 {
                         type: "Component/ReverseDifferentorPanelBlock",
                         component: ReverseDifferentorPanel,
-                    },
-{
-                        type: "Component/Element/NewBannerElement",
-                        component: NewBanner,
-                    },
-{
-                        type: "Component/NewBannerBlock",
-                        component: NewBanner,
-                    },
-{
-                        type: "Component/Element/AiSaaSHeroBannerElement",
-                        component: AiSaaSHeroBanner,
-                    },
-{
-                        type: "Component/AiSaaSHeroBannerBlock",
-                        component: AiSaaSHeroBanner,
                     }
 ]
 
