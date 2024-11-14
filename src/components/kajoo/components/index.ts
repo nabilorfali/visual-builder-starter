@@ -1,15 +1,15 @@
 
-import BackgroundDifferentiatorPanel from './BackgroundDifferentiatorPanel';
+import DifferentorPanel from './DifferentorPanel';
 
 const kajooComponentDictionary = 
 [
     {
-                        type: "Component/Element/BackgroundDifferentiatorPanelElement",
-                        component: BackgroundDifferentiatorPanel,
+                        type: "Component/Element/DifferentorPanelElement",
+                        component: DifferentorPanel,
                     },
 {
-                        type: "Component/BackgroundDifferentiatorPanelBlock",
-                        component: BackgroundDifferentiatorPanel,
+                        type: "Component/DifferentorPanelBlock",
+                        component: DifferentorPanel,
                     }
 ]
 
