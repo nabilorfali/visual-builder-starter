@@ -1,5 +1,0 @@
-fragment NewBannerElementData on NewBannerElement {
-        Ti
-            Text
-            
-    }
