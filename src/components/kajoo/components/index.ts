@@ -1,15 +1,15 @@
 
-import Guvanch from './Guvanch';
+import BackgroundDifferentiatorPanel from './BackgroundDifferentiatorPanel';
 
 const kajooComponentDictionary = 
 [
     {
-                        type: "Component/Element/GuvanchElement",
-                        component: Guvanch,
+                        type: "Component/Element/BackgroundDifferentiatorPanelElement",
+                        component: BackgroundDifferentiatorPanel,
                     },
 {
-                        type: "Component/GuvanchBlock",
-                        component: Guvanch,
+                        type: "Component/BackgroundDifferentiatorPanelBlock",
+                        component: BackgroundDifferentiatorPanel,
                     }
 ]
 
