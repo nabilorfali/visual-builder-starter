@@ -1,0 +1,7 @@
+fragment IntroOneColumnBlockData on IntroOneColumnBlock {
+        Title
+            
+        Copy {
+            json
+        }
+    }

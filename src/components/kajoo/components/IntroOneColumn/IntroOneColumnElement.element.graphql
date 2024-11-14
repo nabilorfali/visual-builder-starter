@@ -1,0 +1,7 @@
+fragment IntroOneColumnElementData on IntroOneColumnElement {
+        Title
+            
+        Copy {
+            json
+        }
+    }
