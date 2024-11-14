@@ -1,7 +1,0 @@
-fragment ReverseDifferentorPanelBlockData on ReverseDifferentorPanelBlock {
-        
-        Description {
-            json
-        }Title
-            
-    }

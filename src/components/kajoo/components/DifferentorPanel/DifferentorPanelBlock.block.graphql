@@ -1,7 +1,0 @@
-fragment DifferentorPanelBlockData on DifferentorPanelBlock {
-        
-        Description {
-            json
-        }Title
-            
-    }
