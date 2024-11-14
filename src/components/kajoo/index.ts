@@ -1,5 +1,5 @@
 
-export const kajooComponentDictionary = [];
+export const kajooComponentDictionary = [];  
 
 export default kajooComponentDictionary;
                         
