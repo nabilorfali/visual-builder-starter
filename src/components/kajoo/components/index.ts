@@ -1,15 +1,42 @@
 
-import IntroOneColumn from './IntroOneColumn';
+import HeroBanner from './HeroBanner';
+import MainNavigation from './MainNavigation';
+import DifferentorPanel from './DifferentorPanel';
+import BackgroundDifferentiatorPanel from './BackgroundDifferentiatorPanel';
 
 const kajooComponentDictionary = 
 [
     {
-                        type: "Component/Element/IntroOneColumnElement",
-                        component: IntroOneColumn,
+                        type: "Component/Element/HeroBannerElement",
+                        component: HeroBanner,
                     },
 {
-                        type: "Component/IntroOneColumnBlock",
-                        component: IntroOneColumn,
+                        type: "Component/HeroBannerBlock",
+                        component: HeroBanner,
+                    },
+{
+                        type: "Component/Element/MainNavigationElement",
+                        component: MainNavigation,
+                    },
+{
+                        type: "Component/MainNavigationBlock",
+                        component: MainNavigation,
+                    },
+{
+                        type: "Component/Element/DifferentorPanelElement",
+                        component: DifferentorPanel,
+                    },
+{
+                        type: "Component/DifferentorPanelBlock",
+                        component: DifferentorPanel,
+                    },
+{
+                        type: "Component/Element/BackgroundDifferentiatorPanelElement",
+                        component: BackgroundDifferentiatorPanel,
+                    },
+{
+                        type: "Component/BackgroundDifferentiatorPanelBlock",
+                        component: BackgroundDifferentiatorPanel,
                     }
 ]
 
