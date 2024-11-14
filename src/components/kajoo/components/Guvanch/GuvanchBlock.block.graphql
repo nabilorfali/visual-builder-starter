@@ -1,4 +1,0 @@
-fragment GuvanchBlockData on GuvanchBlock {
-        Text
-            
-    }
