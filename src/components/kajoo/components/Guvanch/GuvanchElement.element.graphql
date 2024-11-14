@@ -1,0 +1,4 @@
+fragment GuvanchElementData on GuvanchElement {
+        Text
+            
+    }
