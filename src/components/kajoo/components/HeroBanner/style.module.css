@@ -1,0 +1,103 @@
+.hero-banner {
+  color: rgb(255, 255, 255);
+  height: 40vw;
+  display: block;
+  position: relative;
+  max-width: 100vw;
+  box-sizing: border-box;
+  min-height: 680px;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  text-align: center;
+}
+.hero-banner:focus-visible {
+  outline-color: -webkit-focus-ring-color;
+  outline-style: auto;
+  outline-width: 1px;
+}
+.picture {
+  box-sizing: border-box;
+}
+.picture:focus-visible {
+  outline-color: -webkit-focus-ring-color;
+  outline-style: auto;
+  outline-width: 1px;
+}
+.div {
+  top: 50%;
+  width: 100%;
+  display: block;
+  position: relative;
+  max-width: 1410px;
+  transform: translateY(-50%);
+  box-sizing: border-box;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.div:focus-visible {
+  outline-color: -webkit-focus-ring-color;
+  outline-style: auto;
+  outline-width: 1px;
+}
+.p {
+  color: rgb(255, 255, 255);
+  display: block;
+  font-size: 38px;
+  box-sizing: border-box;
+  margin-top: 28px;
+  font-family: Amiri, serif;
+  line-height: 1;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  letter-spacing: 8px;
+}
+.p:focus-visible {
+  outline-color: -webkit-focus-ring-color;
+  outline-style: auto;
+  outline-width: 1px;
+}
+
+@media(max-width: 576px) {
+  .hero-banner {
+    color: rgb(255, 255, 255);
+    height: 720px;
+    display: block;
+    position: relative;
+    max-width: 100vw;
+    min-height: 0px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    text-align: center;
+  }
+  .hero-banner,.picture {
+    box-sizing: border-box;
+  }
+  .div {
+    top: 50%;
+    width: 100%;
+    position: relative;
+    transform: translateY(-50%);
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .div,.p {
+    display: block;
+    box-sizing: border-box;
+  }
+  .p {
+    color: rgb(255, 255, 255);
+    font-size: 38px;
+    margin-top: 28px;
+    font-family: Amiri, serif;
+    line-height: 1;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    letter-spacing: 8px;
+  }
+}

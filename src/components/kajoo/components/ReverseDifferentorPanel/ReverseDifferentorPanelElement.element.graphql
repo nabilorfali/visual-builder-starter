@@ -1,0 +1,7 @@
+fragment ReverseDifferentorPanelElementData on ReverseDifferentorPanelElement {
+        
+        Description {
+            json
+        }Title
+            
+    }

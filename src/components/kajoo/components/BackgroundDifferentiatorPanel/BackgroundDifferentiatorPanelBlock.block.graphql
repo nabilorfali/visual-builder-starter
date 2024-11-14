@@ -1,0 +1,7 @@
+fragment BackgroundDifferentiatorPanelBlockData on BackgroundDifferentiatorPanelBlock {
+        
+        Description {
+            json
+        }Title
+            
+    }
