@@ -26,9 +26,11 @@ html {
 	display: block;
 	view-transition-name: root;
 	box-sizing: border-box;
-	font-family: sans-serif;
 	line-height: 1.15;
 	text-size-adjust: 100%;
+	background-color: rgb(255, 255, 255);
+	color: rgb(46, 56, 65);
+	overflow: -moz-scrollbars-none;
 }
 
 

@@ -1,0 +1,136 @@
+.biolage-about-us {
+  display: block;
+  box-sizing: border-box;
+  padding-top: 80px;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-bottom: 80px;
+  background-size: cover;
+  background-image: url("https://www.biolage.ca/dist/img/about_us_bg.jpg");
+  background-position-x: center;
+  background-position-y: center;
+}
+.biolage-about-us:focus-visible {
+  outline-color: -webkit-focus-ring-color;
+  outline-style: auto;
+  outline-width: 1px;
+}
+.div {
+  width: 90%;
+  display: flex;
+  max-width: 1200px;
+  box-sizing: border-box;
+  align-items: center;
+  margin-left: auto;
+  padding-top: 40px;
+  margin-right: auto;
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-bottom: 40px;
+  justify-content: space-between;
+  background-color: rgb(255, 255, 255);
+}
+.div:focus-visible {
+  outline-color: -webkit-focus-ring-color;
+  outline-style: auto;
+  outline-width: 1px;
+}
+.div1 {
+  width: 25%;
+  display: block;
+  box-sizing: border-box;
+}
+.div1:focus-visible {
+  outline-color: -webkit-focus-ring-color;
+  outline-style: auto;
+  outline-width: 1px;
+}
+.img {
+  width: 100%;
+  height: auto;
+  display: block;
+  max-width: 100%;
+  box-sizing: border-box;
+  overflow-x: clip;
+  overflow-y: clip;
+  border-top-style: none;
+  border-left-style: none;
+  border-right-style: none;
+  border-bottom-style: none;
+  overflow-clip-margin: content-box;
+}
+.img:focus-visible {
+  outline-color: -webkit-focus-ring-color;
+  outline-style: auto;
+  outline-width: 1px;
+}
+.div2 {
+  width: 75%;
+  display: block;
+  box-sizing: border-box;
+  padding-left: 40px;
+}
+.div2:focus-visible {
+  outline-color: -webkit-focus-ring-color;
+  outline-style: auto;
+  outline-width: 1px;
+}
+
+@media(max-width: 399px) {
+  .biolage-about-us {
+    display: block;
+    box-sizing: border-box;
+    padding-top: 22px;
+    padding-left: 22px;
+    padding-right: 22px;
+    padding-bottom: 22px;
+    background-size: cover;
+    background-image: url("https://www.biolage.ca/dist/img/about_us_bg.jpg");
+    background-position-x: center;
+    background-position-y: center;
+  }
+  .div {
+    display: flex;
+    max-width: 1200px;
+    text-align: center;
+    align-items: center;
+    margin-left: auto;
+    padding-top: 35px;
+    margin-right: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+    flex-direction: column;
+    padding-bottom: 35px;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+  }
+  .div,.div1 {
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .div1 {
+    display: block;
+  }
+  .img {
+    width: 50%;
+    height: auto;
+    max-width: 100%;
+    overflow-x: clip;
+    overflow-y: clip;
+    margin-left: auto;
+    margin-right: auto;
+    border-top-style: none;
+    border-left-style: none;
+    border-right-style: none;
+    border-bottom-style: none;
+    overflow-clip-margin: content-box;
+  }
+  .img,.div2 {
+    display: block;
+    box-sizing: border-box;
+  }
+  .div2 {
+    width: 100%;
+    padding-left: 0px;
+  }
+}

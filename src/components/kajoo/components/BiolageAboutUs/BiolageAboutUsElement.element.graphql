@@ -1,0 +1,12 @@
+fragment BiolageAboutUsElementData on BiolageAboutUsElement {
+        
+        Image {
+            ...ReferenceData
+        }
+        Title {
+            json
+        }
+        Descripton {
+            json
+        }
+    }
