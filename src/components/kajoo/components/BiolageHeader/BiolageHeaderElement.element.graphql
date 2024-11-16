@@ -1,6 +1,0 @@
-fragment BiolageHeaderElementData on BiolageHeaderElement {
-        
-        Image {
-            ...ReferenceData
-        }
-    }
