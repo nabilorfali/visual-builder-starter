@@ -1,0 +1,4 @@
+fragment BiolageBestSellersElementData on BiolageBestSellersElement {
+        BestsellerTitle
+            
+    }

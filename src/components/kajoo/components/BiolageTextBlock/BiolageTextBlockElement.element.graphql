@@ -1,0 +1,5 @@
+fragment BiolageTextBlockElementData on BiolageTextBlockElement {
+        Title
+            Description
+            
+    }

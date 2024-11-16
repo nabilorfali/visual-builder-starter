@@ -1,0 +1,4 @@
+fragment BiolageSocialProofBlockData on BiolageSocialProofBlock {
+        SocialTitle
+            
+    }

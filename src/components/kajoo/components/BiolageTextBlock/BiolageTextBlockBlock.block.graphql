@@ -1,0 +1,5 @@
+fragment BiolageTextBlockBlockData on BiolageTextBlockBlock {
+        Title
+            Description
+            
+    }

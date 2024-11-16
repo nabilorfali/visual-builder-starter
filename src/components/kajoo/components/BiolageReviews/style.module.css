@@ -1,0 +1,557 @@
+.biolage-reviews {
+  display: block;
+  box-sizing: border-box;
+  padding-bottom: 100px;
+}
+.biolage-reviews:focus-visible {
+  outline-color: -webkit-focus-ring-color;
+  outline-style: auto;
+  outline-width: 1px;
+}
+.div {
+  width: 90%;
+  display: block;
+  max-width: 1200px;
+  box-sizing: border-box;
+  margin-left: auto;
+  margin-right: auto;
+  animation-name: nodeInserted;
+  animation-duration: 0.01s;
+}
+.div:focus-visible {
+  outline-color: -webkit-focus-ring-color;
+  outline-style: auto;
+  outline-width: 1px;
+}
+.h-2 {
+  display: block;
+  font-size: 2em;
+  box-sizing: border-box;
+  margin-top: 0px;
+  text-align: center;
+  font-family: Gilroy, sans-serif;
+  font-weight: bold;
+  line-height: 1.2em;
+  margin-left: auto;
+  padding-top: 0px;
+  margin-right: auto;
+  padding-left: 0px;
+  margin-bottom: 0px;
+  padding-right: 0px;
+  padding-bottom: 40px;
+}
+.h-2:focus-visible {
+  outline-color: -webkit-focus-ring-color;
+  outline-style: auto;
+  outline-width: 1px;
+}
+.span {
+  color: rgb(120, 157, 74);
+  box-sizing: border-box;
+}
+.span:focus-visible {
+  outline-color: -webkit-focus-ring-color;
+  outline-style: auto;
+  outline-width: 1px;
+}
+.div1 {
+  width: 90%;
+  display: flex;
+  max-width: 1200px;
+  box-sizing: border-box;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  animation-name: nodeInserted;
+  justify-content: space-between;
+  animation-duration: 0.01s;
+}
+.div1:focus-visible {
+  outline-color: -webkit-focus-ring-color;
+  outline-style: auto;
+  outline-width: 1px;
+}
+.div2 {
+  width: 50%;
+  display: block;
+  box-sizing: border-box;
+  padding-top: 0px;
+  padding-left: 70px;
+  padding-right: 70px;
+  animation-name: nodeInserted;
+  padding-bottom: 0px;
+  animation-duration: 0.01s;
+}
+.div2:focus-visible {
+  outline-color: -webkit-focus-ring-color;
+  outline-style: auto;
+  outline-width: 1px;
+}
+.video {
+  width: 100%;
+  box-sizing: border-box;
+  object-fit: contain;
+  overflow-x: clip;
+  overflow-y: clip;
+  margin-left: auto;
+  margin-right: auto;
+  overflow-clip-margin: content-box;
+}
+.video:focus-visible {
+  outline-color: -webkit-focus-ring-color;
+  outline-style: auto;
+  outline-width: 1px;
+}
+.source {
+  box-sizing: border-box;
+}
+.source:focus-visible {
+  outline-color: -webkit-focus-ring-color;
+  outline-style: auto;
+  outline-width: 1px;
+}
+.div3 {
+  width: 50%;
+  display: block;
+  box-sizing: border-box;
+  padding-left: 35px;
+  animation-name: nodeInserted;
+  border-left-color: rgb(120, 157, 74);
+  border-left-style: solid;
+  border-left-width: 1px;
+  animation-duration: 0.01s;
+}
+.div3:focus-visible {
+  outline-color: -webkit-focus-ring-color;
+  outline-style: auto;
+  outline-width: 1px;
+}
+.div4 {
+  display: block;
+  box-sizing: border-box;
+  animation-name: nodeInserted;
+  padding-bottom: 30px;
+  animation-duration: 0.01s;
+}
+.div4:focus-visible {
+  outline-color: -webkit-focus-ring-color;
+  outline-style: auto;
+  outline-width: 1px;
+}
+.richtext {
+  width: 149px;
+  height: 31px;
+}
+.h-3 {
+  display: block;
+  font-size: 1.25em;
+  box-sizing: border-box;
+  margin-top: 0px;
+  font-family: Gilroy, sans-serif;
+  font-weight: bold;
+  margin-left: 0px;
+  padding-top: 5px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  padding-bottom: 5px;
+}
+.h-3:focus-visible {
+  outline-color: -webkit-focus-ring-color;
+  outline-style: auto;
+  outline-width: 1px;
+}
+.p {
+  display: block;
+  font-size: 0.8em;
+  box-sizing: border-box;
+  font-style: normal;
+  margin-top: 0px;
+  font-family: Gilroy, sans-serif;
+  font-weight: 400;
+  line-height: 1.4em;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+}
+.p:focus-visible {
+  outline-color: -webkit-focus-ring-color;
+  outline-style: auto;
+  outline-width: 1px;
+}
+.br {
+  box-sizing: border-box;
+}
+.br:focus-visible {
+  outline-color: -webkit-focus-ring-color;
+  outline-style: auto;
+  outline-width: 1px;
+}
+.strong {
+  box-sizing: border-box;
+  font-weight: bolder;
+}
+.strong:focus-visible {
+  outline-color: -webkit-focus-ring-color;
+  outline-style: auto;
+  outline-width: 1px;
+}
+.div5 {
+  display: block;
+  box-sizing: border-box;
+  animation-name: nodeInserted;
+  padding-bottom: 30px;
+  animation-duration: 0.01s;
+}
+.div5:focus-visible {
+  outline-color: -webkit-focus-ring-color;
+  outline-style: auto;
+  outline-width: 1px;
+}
+.richtext1 {
+  width: 149px;
+  height: 31px;
+}
+.h-31 {
+  display: block;
+  font-size: 1.25em;
+  box-sizing: border-box;
+  margin-top: 0px;
+  font-family: Gilroy, sans-serif;
+  font-weight: bold;
+  margin-left: 0px;
+  padding-top: 5px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  padding-bottom: 5px;
+}
+.h-31:focus-visible {
+  outline-color: -webkit-focus-ring-color;
+  outline-style: auto;
+  outline-width: 1px;
+}
+.p1 {
+  display: block;
+  font-size: 0.8em;
+  box-sizing: border-box;
+  font-style: normal;
+  margin-top: 0px;
+  font-family: Gilroy, sans-serif;
+  font-weight: 400;
+  line-height: 1.4em;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+}
+.p1:focus-visible {
+  outline-color: -webkit-focus-ring-color;
+  outline-style: auto;
+  outline-width: 1px;
+}
+.br1 {
+  box-sizing: border-box;
+}
+.br1:focus-visible {
+  outline-color: -webkit-focus-ring-color;
+  outline-style: auto;
+  outline-width: 1px;
+}
+.strong1 {
+  box-sizing: border-box;
+  font-weight: bolder;
+}
+.strong1:focus-visible {
+  outline-color: -webkit-focus-ring-color;
+  outline-style: auto;
+  outline-width: 1px;
+}
+.div6 {
+  display: block;
+  box-sizing: border-box;
+  animation-name: nodeInserted;
+  padding-bottom: 0px;
+  animation-duration: 0.01s;
+}
+.div6:focus-visible {
+  outline-color: -webkit-focus-ring-color;
+  outline-style: auto;
+  outline-width: 1px;
+}
+.richtext2 {
+  width: 149px;
+  height: 31px;
+}
+.h-32 {
+  display: block;
+  font-size: 1.25em;
+  box-sizing: border-box;
+  margin-top: 0px;
+  font-family: Gilroy, sans-serif;
+  font-weight: bold;
+  margin-left: 0px;
+  padding-top: 5px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  padding-bottom: 5px;
+}
+.h-32:focus-visible {
+  outline-color: -webkit-focus-ring-color;
+  outline-style: auto;
+  outline-width: 1px;
+}
+.p2 {
+  display: block;
+  font-size: 0.8em;
+  box-sizing: border-box;
+  font-style: normal;
+  margin-top: 0px;
+  font-family: Gilroy, sans-serif;
+  font-weight: 400;
+  line-height: 1.4em;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+}
+.p2:focus-visible {
+  outline-color: -webkit-focus-ring-color;
+  outline-style: auto;
+  outline-width: 1px;
+}
+.br2 {
+  box-sizing: border-box;
+}
+.br2:focus-visible {
+  outline-color: -webkit-focus-ring-color;
+  outline-style: auto;
+  outline-width: 1px;
+}
+.strong2 {
+  box-sizing: border-box;
+  font-weight: bolder;
+}
+.strong2:focus-visible {
+  outline-color: -webkit-focus-ring-color;
+  outline-style: auto;
+  outline-width: 1px;
+}
+
+@media(max-width: 1300px) {
+  .div,.div1 {
+    width: 90%;
+  }
+}
+@media(max-width: 1280px) {
+  .biolage-reviews {
+    padding-bottom: 100px;
+  }
+  .div,.div1 {
+    width: calc(100% - 120px);
+    padding-left: unset;
+    padding-right: unset;
+  }
+  .div1 {
+    flex-direction: unset;
+  }
+  .div2 {
+    width: 50%;
+    padding-left: 70px;
+    padding-right: 70px;
+  }
+  .div3 {
+    width: 50%;
+    margin-top: unset;
+    padding-left: 35px;
+    border-left-color: rgb(120, 157, 74);
+    border-left-style: solid;
+    border-left-width: 1px;
+  }
+}
+@media(max-width: 1215px) {
+  .richtext,.richtext1,.richtext2 {
+    width: 149px;
+    height: 31px;
+  }
+}
+@media(max-width: 1024px) {
+  .biolage-reviews {
+    display: block;
+    box-sizing: border-box;
+    padding-bottom: 60px;
+  }
+  .div {
+    width: 100%;
+    max-width: 1200px;
+    padding-left: 30px;
+    padding-right: 30px;
+    animation-name: nodeInserted;
+    animation-duration: 0.01s;
+  }
+  .div,.h-2 {
+    display: block;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .h-2 {
+    font-size: 2em;
+    margin-top: 0px;
+    text-align: center;
+    font-family: Gilroy, sans-serif;
+    font-weight: bold;
+    line-height: 1.2em;
+    padding-top: 0px;
+    padding-left: 0px;
+    margin-bottom: 0px;
+    padding-right: 0px;
+    padding-bottom: 40px;
+  }
+  .span {
+    color: rgb(120, 157, 74);
+    box-sizing: border-box;
+  }
+  .div1 {
+    display: flex;
+    max-width: 1200px;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 30px;
+    padding-right: 30px;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .div1,.div2 {
+    width: 100%;
+    box-sizing: border-box;
+    animation-name: nodeInserted;
+    animation-duration: 0.01s;
+  }
+  .div2 {
+    display: block;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+  }
+  .video {
+    width: 100%;
+    object-fit: contain;
+    overflow-x: clip;
+    overflow-y: clip;
+    margin-left: auto;
+    margin-right: auto;
+    overflow-clip-margin: content-box;
+  }
+  .video,.source {
+    box-sizing: border-box;
+  }
+  .div3 {
+    width: 100%;
+    margin-top: 60px;
+    padding-left: 0px;
+    border-left-style: none;
+  }
+  .div3,.div4 {
+    display: block;
+    box-sizing: border-box;
+    animation-name: nodeInserted;
+    animation-duration: 0.01s;
+  }
+  .div4 {
+    padding-bottom: 30px;
+  }
+  .h-3 {
+    font-size: 1.25em;
+    font-weight: bold;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  .h-3,.p {
+    display: block;
+    box-sizing: border-box;
+    margin-top: 0px;
+    font-family: Gilroy, sans-serif;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+  }
+  .p {
+    font-size: 0.8em;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.4em;
+  }
+  .br,.strong {
+    box-sizing: border-box;
+  }
+  .strong {
+    font-weight: bolder;
+  }
+  .div5 {
+    display: block;
+    box-sizing: border-box;
+    animation-name: nodeInserted;
+    padding-bottom: 30px;
+    animation-duration: 0.01s;
+  }
+  .h-31 {
+    font-size: 1.25em;
+    font-weight: bold;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  .h-31,.p1 {
+    display: block;
+    box-sizing: border-box;
+    margin-top: 0px;
+    font-family: Gilroy, sans-serif;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+  }
+  .p1 {
+    font-size: 0.8em;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.4em;
+  }
+  .br1,.strong1 {
+    box-sizing: border-box;
+  }
+  .strong1 {
+    font-weight: bolder;
+  }
+  .div6 {
+    display: block;
+    box-sizing: border-box;
+    animation-name: nodeInserted;
+    padding-bottom: 0px;
+    animation-duration: 0.01s;
+  }
+  .h-32 {
+    font-size: 1.25em;
+    font-weight: bold;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  .h-32,.p2 {
+    display: block;
+    box-sizing: border-box;
+    margin-top: 0px;
+    font-family: Gilroy, sans-serif;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+  }
+  .p2 {
+    font-size: 0.8em;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.4em;
+  }
+  .br2,.strong2 {
+    box-sizing: border-box;
+  }
+  .strong2 {
+    font-weight: bolder;
+  }
+}

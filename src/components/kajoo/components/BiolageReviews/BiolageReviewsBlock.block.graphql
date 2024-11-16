@@ -1,0 +1,4 @@
+fragment BiolageReviewsBlockData on BiolageReviewsBlock {
+        ReviewsTitle
+            
+    }

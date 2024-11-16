@@ -1,0 +1,4 @@
+fragment BiolageReviewsElementData on BiolageReviewsElement {
+        ReviewsTitle
+            
+    }

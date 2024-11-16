@@ -1,0 +1,6 @@
+fragment BiolageFigmaBannerElementData on BiolageFigmaBannerElement {
+        
+        BannerImage {
+            ...ReferenceData
+        }
+    }

@@ -1,0 +1,4 @@
+fragment BiolageFooterBlockData on BiolageFooterBlock {
+        FooterTitle
+            
+    }

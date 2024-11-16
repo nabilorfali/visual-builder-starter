@@ -1,0 +1,4 @@
+fragment BiolageFooterElementData on BiolageFooterElement {
+        FooterTitle
+            
+    }

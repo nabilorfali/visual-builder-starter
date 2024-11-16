@@ -1,0 +1,4 @@
+fragment BiolageBestSellersBlockData on BiolageBestSellersBlock {
+        BestsellerTitle
+            
+    }

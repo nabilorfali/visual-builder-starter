@@ -1,0 +1,4 @@
+fragment BiolageCollectionsBlockData on BiolageCollectionsBlock {
+        Title
+            
+    }

@@ -1,0 +1,4 @@
+fragment BiolageAboutUsBlockData on BiolageAboutUsBlock {
+        Aboutustitle
+            
+    }

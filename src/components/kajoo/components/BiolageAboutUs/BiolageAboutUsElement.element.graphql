@@ -1,0 +1,4 @@
+fragment BiolageAboutUsElementData on BiolageAboutUsElement {
+        Aboutustitle
+            
+    }

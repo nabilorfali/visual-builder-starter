@@ -1,0 +1,6 @@
+fragment BiolageHeroBannerBlockData on BiolageHeroBannerBlock {
+        
+        Image {
+            ...ReferenceData
+        }
+    }

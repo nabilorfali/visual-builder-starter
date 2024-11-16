@@ -1,0 +1,4 @@
+fragment BiolageCardListingElementData on BiolageCardListingElement {
+        Cardlistingtitle
+            
+    }

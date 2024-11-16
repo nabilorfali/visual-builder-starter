@@ -1,0 +1,4 @@
+fragment BiolageNewsletterBannerBlockData on BiolageNewsletterBannerBlock {
+        NewsletterTitle
+            
+    }

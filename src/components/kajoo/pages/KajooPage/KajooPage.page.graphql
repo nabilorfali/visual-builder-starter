@@ -1,0 +1,3 @@
+fragment KajooPageData on KajooPage {
+        MainContent { ...BlockData }
+    }

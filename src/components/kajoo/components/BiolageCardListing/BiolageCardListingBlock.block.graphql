@@ -1,0 +1,4 @@
+fragment BiolageCardListingBlockData on BiolageCardListingBlock {
+        Cardlistingtitle
+            
+    }
