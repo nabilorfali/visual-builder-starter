@@ -1,0 +1,4 @@
+fragment SocialProofBlockData on SocialProofBlock {
+        SocialTitle
+            
+    }

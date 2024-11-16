@@ -1,0 +1,4 @@
+fragment NewsletterBannerBlockData on NewsletterBannerBlock {
+        NewsletterTitle
+            
+    }

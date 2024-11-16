@@ -1,0 +1,4 @@
+fragment FooterElementData on FooterElement {
+        FooterTitle
+            
+    }

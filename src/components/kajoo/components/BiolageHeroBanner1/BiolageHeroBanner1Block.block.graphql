@@ -1,0 +1,8 @@
+fragment BiolageHeroBanner1BlockData on BiolageHeroBanner1Block {
+        HeroTitle
+            HeroDescription
+            
+        HeroCta {
+            ...LinkItemData
+        }
+    }

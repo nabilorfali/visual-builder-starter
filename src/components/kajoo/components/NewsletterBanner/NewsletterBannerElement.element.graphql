@@ -1,0 +1,4 @@
+fragment NewsletterBannerElementData on NewsletterBannerElement {
+        NewsletterTitle
+            
+    }

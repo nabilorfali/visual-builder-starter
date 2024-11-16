@@ -1,0 +1,6 @@
+fragment HeroBannerBlockData on HeroBannerBlock {
+        
+        Image {
+            ...ReferenceData
+        }
+    }

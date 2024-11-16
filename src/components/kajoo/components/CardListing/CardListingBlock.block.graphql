@@ -1,0 +1,4 @@
+fragment CardListingBlockData on CardListingBlock {
+        Cardlistingtitle
+            
+    }

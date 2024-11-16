@@ -1,0 +1,4 @@
+fragment SocialProofElementData on SocialProofElement {
+        SocialTitle
+            
+    }

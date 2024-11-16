@@ -1,0 +1,4 @@
+fragment BestSellersElementData on BestSellersElement {
+        BestsellerTitle
+            
+    }
