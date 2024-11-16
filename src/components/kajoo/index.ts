@@ -1,7 +1,5 @@
-import components from "./components";
-import pages from "./pages";
 
-export const kajooComponentDictionary = [...components, ...pages];
+export const kajooComponentDictionary = [];
 
 export default kajooComponentDictionary;
                         
