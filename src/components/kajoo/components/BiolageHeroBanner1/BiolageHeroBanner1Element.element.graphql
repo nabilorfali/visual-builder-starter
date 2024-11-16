@@ -1,0 +1,8 @@
+fragment BiolageHeroBanner1ElementData on BiolageHeroBanner1Element {
+        HeroTitle
+            HeroDescription
+            
+        HeroCta {
+            ...LinkItemData
+        }
+    }

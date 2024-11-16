@@ -1,0 +1,86 @@
+.biolage-figma-banner {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.background {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  background-color: rgba(88, 162, 145, 1);
+}
+.background,.container {
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: center;
+}
+.container {
+  gap: 13px;
+  width: 654px;
+  flex-direction: column;
+}
+.text {
+  font-size: 23.0625px;
+  font-style: Regular;
+  font-weight: 400;
+  line-height: 30px;
+}
+.text,.text1 {
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  align-self: stretch;
+  text-align: center;
+  font-family: Inter;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.text1 {
+  font-size: 45.3125px;
+  font-style: Bold;
+  font-weight: 700;
+  line-height: 48px;
+}
+.text2 {
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  font-size: 23.0625px;
+  align-self: stretch;
+  font-style: Regular;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: 30px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.link {
+  gap: 10px;
+  display: flex;
+  padding: 13px 44px;
+  align-items: center;
+  border-color: rgba(255, 255, 255, 1);
+  border-style: solid;
+  border-width: 2px;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 1);
+}
+.text3 {
+  color: rgba(88, 162, 145, 1);
+  width: 113px;
+  height: auto;
+  font-size: 14.53125px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: 22.5px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.image-4 {
+  width: 748px;
+  height: 500px;
+}
+

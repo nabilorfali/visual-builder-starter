@@ -1,0 +1,6 @@
+fragment HeaderElementData on HeaderElement {
+        
+        Image {
+            ...ReferenceData
+        }
+    }

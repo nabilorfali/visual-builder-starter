@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto|Lora');
 :root {
   --size-large: 144px;
   --size-small: 48px;
@@ -14,12 +15,17 @@
   --radius-x-large: 12px;
   --radius-x-small: 2px;
   --size-max-width: 1440px;
+  --color-dark-gray: #333333;
+  --color-light-gray: #f5f5f5;
   --spacing-half-unit: 8px;
   --spacing-six-units: 96px;
   --spacing-two-units: 32px;
   --spacing-five-units: 80px;
   --spacing-four-units: 64px;
+  --color-accent-yellow: #fdd835;
+  --color-primary-green: #7dbf50;
   --spacing-three-units: 48px;
+  --color-secondary-green: #4e7a33;
   --spacing-one-and-half-units: 24px;
 }
 html {
@@ -34,3 +40,14 @@ html {
 }
 
 
+.button-primary-button {
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  font-family: "Roboto";
+  font-weight: bold;
+  border-radius: 8px;
+  background-color: #7dbf50;
+}

@@ -1,0 +1,6 @@
+fragment HeaderBlockData on HeaderBlock {
+        
+        Image {
+            ...ReferenceData
+        }
+    }
