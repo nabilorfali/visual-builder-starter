@@ -1,4 +1,0 @@
-fragment CollectionsElementData on CollectionsElement {
-        Title
-            
-    }

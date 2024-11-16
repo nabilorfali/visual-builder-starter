@@ -1,6 +1,0 @@
-fragment BiolageFigmaBannerBlockData on BiolageFigmaBannerBlock {
-        
-        BannerImage {
-            ...ReferenceData
-        }
-    }

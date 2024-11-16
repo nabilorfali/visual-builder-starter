@@ -1,4 +1,0 @@
-fragment CardListingElementData on CardListingElement {
-        Cardlistingtitle
-            
-    }

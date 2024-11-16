@@ -1,4 +1,0 @@
-fragment CollectionsBlockData on CollectionsBlock {
-        Title
-            
-    }

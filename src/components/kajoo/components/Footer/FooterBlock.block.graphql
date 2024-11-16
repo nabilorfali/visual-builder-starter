@@ -1,4 +1,0 @@
-fragment FooterBlockData on FooterBlock {
-        FooterTitle
-            
-    }

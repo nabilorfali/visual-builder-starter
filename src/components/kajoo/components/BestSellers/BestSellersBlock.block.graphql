@@ -1,4 +1,0 @@
-fragment BestSellersBlockData on BestSellersBlock {
-        BestsellerTitle
-            
-    }

@@ -1,5 +1,0 @@
-fragment TextBlockBlockData on TextBlockBlock {
-        Title
-            Description
-            
-    }

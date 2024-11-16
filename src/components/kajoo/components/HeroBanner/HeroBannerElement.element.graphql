@@ -1,6 +1,0 @@
-fragment HeroBannerElementData on HeroBannerElement {
-        
-        Image {
-            ...ReferenceData
-        }
-    }

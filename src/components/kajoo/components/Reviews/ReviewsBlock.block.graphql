@@ -1,4 +1,0 @@
-fragment ReviewsBlockData on ReviewsBlock {
-        ReviewsTitle
-            
-    }
